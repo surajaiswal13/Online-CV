@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  text-align: center;
+  /* font-family: verdana, sans-serif; */
+  font-family: 'Merriweather', serif;
+  /* ref cssfontstack */
+}
+
+div {
+  /* margin: 0; */
+}
+
+h1 {
+  /* 100% = 16px = 1em */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto; /* auto is used for keeping it in center */
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+p {
+  margin: 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  /* All child classes will take top container as base because of relative */
+  position: relative;
+  background-color: #E4F9F5;
+  padding: 100px 0 0 0;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer {
+  width: 25%; /* 25 percent of its parent i.e skill row */
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.chillies {
+  width: 25%; /* 25 percent of its parent i.e skill row */
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+
+/* clear property is anti-float */
+/*
+.anti-float-one {
+  clear: left;
+}
+
+.anti-float-two {
+  clear: right;
+} */
+
+.profile-img {
+  width: 20%;
+  margin-top: 20px;
+}
